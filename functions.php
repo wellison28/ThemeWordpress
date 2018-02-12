@@ -25,3 +25,9 @@ register_nav_menus(
 		'menu_rodape' => 'Meu Rodapé'  
 	)
 );
+
+//permite que o usuario altere o estilo dessas areas
+add_theme_support('custom-background');
+add_theme_support('custom-header');
+//permite a inclusão de imagens com os posts
+add_theme_support('post-thumbnails');
